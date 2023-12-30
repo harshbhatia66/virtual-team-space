@@ -1,0 +1,13 @@
+# .coveragerc to control coverage.py
+[run]
+branch = True
+source =
+    src
+omit =
+    test_*.py
+    *_test.py
+    src/server.py
+    src/data_store.py
+    src/tokens.py
+    src/unique_id.py
+    */__init__.py
